@@ -1,0 +1,16 @@
+//Color Variables
+$color1: #E84545; //Red
+$color2: #53354A; //Plum
+$color3: #903749; //Maroon
+
+body {
+  background-color: $color1;
+  color: $color2;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 3em 0 1em 0;
+}

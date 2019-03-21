@@ -4,7 +4,16 @@ import React from "react";
 const Plan = () => {
   return (
     <div>
-      <p>plan</p>
+      <p>plakn</p>
+      <div>
+        <p>plan</p>
+      </div>
+      <div>
+        <p>plan</p>
+      </div>
+      <div>
+        <p>plan</p>
+      </div>
     </div>
   );
 };
