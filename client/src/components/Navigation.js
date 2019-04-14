@@ -5,11 +5,11 @@ import "./navigation.scss"
 const Navigation = () => {
   return (
     <div>
-      <nav className="navBar">
+      <nav className="navbar">
         <nav className="wrapper">
           <div className="logo"></div>
           <input type="checkbox" id="menu-toggle" />
-          <label for="menu-toggle" className="label-toggle"></label>
+          <label htmlFor="menu-toggle" className="label-toggle"></label>
           <ul>
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/plan">Plan</NavLink></li>
@@ -17,12 +17,6 @@ const Navigation = () => {
           </ul>
         </nav>
       </nav>
-      <div>
-        jsdsdjk
-      </div>
-      <div>
-        jsdsdjk
-      </div>
     </div>
 
   );

@@ -7,12 +7,6 @@ $color3: #903749; //Maroon
 // Base Styles
 
 
-.navBar {
-  background-color: $color2;
-  position: fixed;
-  min-width: 100%;
-  margin-bottom: 80px;
-}
 
 .logo {
   background-color: $color1;
@@ -23,15 +17,14 @@ $color3: #903749; //Maroon
   width: 45px;
 }
 
-// Content Wrapper
-.wrapper {
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 0 2%;
-}
-
 // Full Navigation, including mobile menu
-nav {
+.navbar {
+  background-color: $color2;
+  position: relative;
+  width: 100%;
+  max-height: 75px;
+
+
   ul {
     display: flex;
     justify-content: space-between;
@@ -56,6 +49,9 @@ nav {
   .label-toggle {display: none;}
   
   .wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 2%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -71,7 +67,10 @@ nav {
     }
     ul {
       background-color: $color1;
-      display: block;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
       height: 0;
       list-style-type: none;
       opacity: 0;
@@ -86,12 +85,12 @@ nav {
       color: $color2;
       display: block;
       font-size: 1.5em;
-      padding: 2em 0;
+      padding: 1em 0;
     }
   
     #menu-toggle:checked ~ ul {
       opacity: 1;
-      height: 100vh;
+      height: auto;
       visibility: visible;
     }
     
