@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/pujan1/hell-of-a-ride/issues"
   },
-  "homepage": "https://github.com/pujan1/hell-of-a-ride#readme"
+  "homepage": "https://github.com/pujan1/hell-of-a-ride#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
 }
